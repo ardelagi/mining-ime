@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: "font", sans-serif;
+  --font-mono: "monospace", monospace;
+}
+
+@layer base {
+  :root {
+    --color-background: 0 0% 100%;
+    --color-surface: 0 0% 97%;
+    --color-foreground: 222 47% 11%;
+    --color-accent: 142 72% 38%;
+    --color-muted: 215 16% 47%;
+    --color-separator: 220 13% 88%;
+    --color-danger: 0 72% 51%;
+  }
+
+  .dark {
+    --color-background: 222 47% 5%;
+    --color-surface: 222 40% 8%;
+    --color-foreground: 210 40% 96%;
+    --color-accent: 142 72% 45%;
+    --color-muted: 215 16% 55%;
+    --color-separator: 217 33% 15%;
+    --color-danger: 0 72% 58%;
+  }
+}
+
+@layer utilities {
+  .bg-background { background-color: hsl(var(--color-background)); }
+  .bg-surface { background-color: hsl(var(--color-surface)); }
+  .text-foreground { color: hsl(var(--color-foreground)); }
+  .text-accent { color: hsl(var(--color-accent)); }
+  .text-muted { color: hsl(var(--color-muted)); }
+  .text-danger { color: hsl(var(--color-danger)); }
+  .border-separator { border-color: hsl(var(--color-separator)); }
+  .bg-accent { background-color: hsl(var(--color-accent)); }
+  .bg-danger { background-color: hsl(var(--color-danger)); }
+
+  .shadow-surface {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.06), 0 1px 2px -1px rgb(0 0 0 / 0.04);
+  }
+}

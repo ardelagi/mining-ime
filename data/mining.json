@@ -1,0 +1,268 @@
+{
+  "tambang": {
+    "coal": {
+      "require": {},
+      "price": 6
+    },
+    "copper_ingot": {
+      "require": {
+        "copper_ore": 2
+      },
+      "price": 15
+    },
+    "iron_ingot": {
+      "require": {
+        "iron_ore": 2
+      },
+      "price": 21
+    },
+    "gold_ingot": {
+      "require": {
+        "gold_ore": 2
+      },
+      "price": 31
+    },
+    "silver_ingot": {
+      "require": {
+        "silver_ore": 2
+      },
+      "price": 25
+    },
+    "alluminium_ingot": {
+      "require": {
+        "alluminium_ore": 2
+      },
+      "price": 10
+    },
+    "steel_ingot": {
+      "require": {
+        "coal": 1,
+        "iron_ore": 2
+      },
+      "price": 56
+    },
+    "sapphire": {
+      "require": {
+        "uncut_sapphire": 1
+      },
+      "price": 10
+    },
+    "diamond": {
+      "require": {
+        "uncut_diamond": 1
+      },
+      "price": 25
+    },
+    "ruby": {
+      "require": {
+        "uncut_ruby": 1
+      },
+      "price": 31
+    },
+    "emerald": {
+      "require": {
+        "uncut_emerald": 1
+      },
+      "price": 42
+    }
+  },
+  "perhiasan": {
+    "gold_ring": {
+      "require": {
+        "gold_ingot": 1
+      },
+      "price": 0
+    },
+    "silver_ring": {
+      "require": {
+        "silver_ingot": 1
+      },
+      "price": 0
+    },
+    "emerald_ring": {
+      "require": {
+        "gold_ring": 1,
+        "emerald": 4
+      },
+      "price": 355
+    },
+    "ruby_ring": {
+      "require": {
+        "gold_ring": 1,
+        "ruby": 4
+      },
+      "price": 280
+    },
+    "sapphire_ring": {
+      "require": {
+        "gold_ring": 1,
+        "sapphire": 4
+      },
+      "price": 168
+    },
+    "diamond_ring_silver": {
+      "require": {
+        "silver_ring": 1,
+        "diamond": 4
+      },
+      "price": 234
+    },
+    "emerald_ring_silver": {
+      "require": {
+        "silver_ring": 1,
+        "emerald": 4
+      },
+      "price": 345
+    },
+    "ruby_ring_silver": {
+      "require": {
+        "silver_ring": 1,
+        "ruby": 4
+      },
+      "price": 271
+    },
+    "sapphire_ring_silver": {
+      "require": {
+        "silver_ring": 1,
+        "sapphire": 4
+      },
+      "price": 159
+    },
+    "gold_earring": {
+      "require": {
+        "gold_ingot": 1
+      },
+      "price": 0
+    },
+    "silver_earring": {
+      "require": {
+        "silver_ingot": 1
+      },
+      "price": 0
+    },
+    "diamond_earring": {
+      "require": {
+        "gold_earring": 1,
+        "diamond": 2
+      },
+      "price": 148
+    },
+    "ruby_earring": {
+      "require": {
+        "gold_earring": 1,
+        "ruby": 2
+      },
+      "price": 168
+    },
+    "sapphire_earring": {
+      "require": {
+        "gold_earring": 1,
+        "sapphire": 2
+      },
+      "price": 112
+    },
+    "emerald_earring": {
+      "require": {
+        "gold_earring": 1,
+        "emerald": 2
+      },
+      "price": 195
+    },
+    "diamond_earring_silver": {
+      "require": {
+        "silver_earring": 1,
+        "diamond": 2
+      },
+      "price": 139
+    },
+    "ruby_earring_silver": {
+      "require": {
+        "silver_earring": 1,
+        "ruby": 2
+      },
+      "price": 159
+    },
+    "sapphire_earring_silver": {
+      "require": {
+        "silver_earring": 1,
+        "sapphire": 2
+      },
+      "price": 103
+    },
+    "emerald_earring_silver": {
+      "require": {
+        "silver_earring": 1,
+        "emerald": 2
+      },
+      "price": 195
+    },
+    "gold_chain": {
+      "require": {
+        "gold_ingot": 2
+      },
+      "price": 0
+    },
+    "silver_chain": {
+      "require": {
+        "silver_ingot": 2
+      },
+      "price": 0
+    },
+    "diamond_necklace": {
+      "require": {
+        "gold_chain": 1,
+        "diamond": 6
+      },
+      "price": 0
+    },
+    "ruby_necklace": {
+      "require": {
+        "gold_chain": 1,
+        "ruby": 6
+      },
+      "price": 524
+    },
+    "sapphire_necklace": {
+      "require": {
+        "gold_chain": 1,
+        "sapphire": 6
+      },
+      "price": 280
+    },
+    "emerald_necklace": {
+      "require": {
+        "gold_chain": 1,
+        "emerald": 6
+      },
+      "price": 374
+    },
+    "diamond_necklace_silver": {
+      "require": {
+        "silver_chain": 1,
+        "diamond": 6
+      },
+      "price": 250
+    },
+    "ruby_necklace_silver": {
+      "require": {
+        "silver_chain": 1,
+        "ruby": 6
+      },
+      "price": 512
+    },
+    "emerald_necklace_silver": {
+      "require": {
+        "silver_chain": 1,
+        "emerald": 6
+      },
+      "price": 362
+    },
+    "sapphire_necklace_silver": {
+      "require": {
+        "silver_chain": 1,
+        "sapphire": 6
+      },
+      "price": 174
+    }
+  }
+}
